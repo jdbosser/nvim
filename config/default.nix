@@ -6,4 +6,6 @@
     ./plugins.nix
     ./lsp.nix
   ];
+
+  colorschemes.rose-pine.enable = true; 
 }
