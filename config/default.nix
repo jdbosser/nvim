@@ -3,5 +3,7 @@
   imports = [
     ./set.nix
     ./bufferline.nix
+    ./plugins.nix
+    ./lsp.nix
   ];
 }
