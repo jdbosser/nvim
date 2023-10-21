@@ -8,6 +8,7 @@
     ./cmp.nix
     ./gitsigns.nix
     ./lualine.nix
+    ./telescope.nix
   ];
 
   colorschemes.rose-pine.enable = true; 
