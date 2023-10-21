@@ -5,6 +5,7 @@
     ./bufferline.nix
     ./plugins.nix
     ./lsp.nix
+    ./cmp.nix
   ];
 
   colorschemes.rose-pine.enable = true; 
