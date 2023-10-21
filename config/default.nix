@@ -6,6 +6,8 @@
     ./plugins.nix
     ./lsp.nix
     ./cmp.nix
+    ./gitsigns.nix
+    ./lualine.nix
   ];
 
   colorschemes.rose-pine.enable = true; 
