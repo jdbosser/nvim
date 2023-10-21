@@ -5,6 +5,7 @@
 		# plugins.rhubarb.enable = true; 	# Currently not in the repository of modules	
 
 		which-key.enable = true; 
+		indent-blankline.enable = true; 
 	};
 }
 
