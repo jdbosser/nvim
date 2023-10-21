@@ -9,6 +9,7 @@
     ./gitsigns.nix
     ./lualine.nix
     ./telescope.nix
+    ./treesitter.nix
   ];
 
   colorschemes.rose-pine.enable = true; 

@@ -12,7 +12,7 @@
 			changedelete.text = "~";
 
 		};
-		onAttach.function = ''
+		onAttach.function = /* lua */ ''
 function(bufnr)
         vim.keymap.set('n', '<leader>hp', require('gitsigns').preview_hunk, { buffer = bufnr, desc = 'Preview git hunk' })
 
