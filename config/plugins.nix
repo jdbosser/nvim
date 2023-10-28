@@ -6,6 +6,14 @@
 
 		which-key.enable = true; 
 		indent-blankline.enable = true; 
+		luasnip.enable = true; 
+		fidget.enable = true; 
+		
+
+		packer = {
+			enable = true; 
+			plugins = ["rafamadriz/friendly-snippets"];
+		};
 	};
 }
 
