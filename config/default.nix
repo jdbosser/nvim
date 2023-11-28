@@ -10,6 +10,7 @@
     ./lualine.nix
     ./telescope.nix
     ./treesitter.nix
+    ./toggleterm.nix
   ];
 
   colorschemes.rose-pine.enable = true; 

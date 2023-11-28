@@ -21,7 +21,7 @@ options = {
 };
 
 config.clipboard.register =  "unnamedplus"; # share clipboard between OS and neovim
-config.extraConfigLuaPost = ''
+config.extraConfigLuaPre = ''
 
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are required (otherwise wrong leader will be used)
