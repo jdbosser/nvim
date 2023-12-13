@@ -3,7 +3,6 @@
 options = {
 	hlsearch = true; 	# Highlight on search
 	mouse = "a";		# Enable mouse mode
-	number = true; 		# Line numbers (should maybe be scoped to vim.wo... TODO)
 	breakindent = true; 	
 	undofile = true; 
 
@@ -18,6 +17,9 @@ options = {
 	completeopt = "menuone,noselect";
 
 	termguicolors = true; 
+
+	number = true; 		# Line numbers (should maybe be scoped to vim.wo... TODO)
+	relativenumber=true;
 };
 
 config.clipboard.register =  "unnamedplus"; # share clipboard between OS and neovim
