@@ -8,6 +8,9 @@
 		indent-blankline.enable = true; 
 		luasnip.enable = true; 
 		fidget.enable = true; 
+
+
+		
 		
 
 		packer = {

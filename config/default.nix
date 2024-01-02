@@ -11,6 +11,7 @@
     ./telescope.nix
     ./treesitter.nix
     ./toggleterm.nix
+    ./debugging.nix
   ];
 
   colorschemes.rose-pine.enable = true; 
