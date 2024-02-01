@@ -7,10 +7,15 @@
 		which-key.enable = true; 
 		indent-blankline.enable = true; 
 		luasnip.enable = true; 
+		luasnip.extraConfig = {
+			enable_autosnippets = true; 
+			store_selection_keys = "<Tab>";
+		};
 		fidget.enable = true; 
 
 
-		
+		neogen.enable = true; 		
+		neogen.snippetEngine = "luasnip";
 		
 
 		packer = {
