@@ -1,9 +1,11 @@
 {
 
 	plugins.lsp = {
-		enable = true; 
+		enable = true;
 		servers = {
 			rust-analyzer.enable = true; 
+			rust-analyzer.installCargo = false; 
+			rust-analyzer.installRustc = false; 
 			typst-lsp.enable = true; 
 			pylsp.enable = true;
 			nixd.enable = true; 

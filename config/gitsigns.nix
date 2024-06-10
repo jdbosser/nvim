@@ -3,7 +3,7 @@
 	plugins.gitsigns = {
 
 		enable = true; 
-		signs = {
+		settings.signs = {
 			
 			add.text = "+";
 			change.text = "~";
@@ -12,7 +12,7 @@
 			changedelete.text = "~";
 
 		};
-		onAttach.function = /* lua */ ''
+		settings.on_attach = /* lua */ ''
 function(bufnr)
         vim.keymap.set('n', '<leader>hp', require('gitsigns').preview_hunk, { buffer = bufnr, desc = 'Preview git hunk' })
 

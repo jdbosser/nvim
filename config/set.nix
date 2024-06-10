@@ -1,6 +1,6 @@
 {
 	
-config.options = {
+config.opts = {
 	hlsearch = true; 	# Highlight on search
 	mouse = "a";		# Enable mouse mode
 	breakindent = true; 	

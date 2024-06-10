@@ -3,9 +3,11 @@
 plugins.toggleterm = {
 	
 	enable = true; 
-	direction = "float";
-	openMapping = "<leader>t";
-	insertMappings = false; 
+	settings = {
+		direction = "float";
+		open_mapping = "[[<A-t>]]";
+		insert_mappings = false; 
+	};
 
 };
 

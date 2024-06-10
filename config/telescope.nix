@@ -5,9 +5,10 @@
 		enable = true; 
 		extensions.fzf-native.enable = true; 
 		keymaps = {
-		  "<space>hh" = {
+		  "<leader>hh" = {
 		     action = "oldfiles";
-		     desc = "[?] Find recently opened files";
+		     options = {
+		     desc = "[?] Find recently opened files";};
 		  };
 			/*
 
