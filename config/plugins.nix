@@ -1,4 +1,4 @@
-{
+{pkgs, ...}: {
 	plugins = {
 		fugitive.enable = true; 	
 		# plugins.sleuth.enable = true; 	# Currently not in the repository of modules
@@ -17,12 +17,37 @@
 		neogen.enable = true; 		
 		neogen.snippetEngine = "luasnip";
 		
+		friendly-snippets.enable = true; 
+		
+		
+		# packer = {
+		# 	enable = true; 
+		# 	plugins = ["rafamadriz/friendly-snippets"];
+		# };
 
-		packer = {
-			enable = true; 
-			plugins = ["rafamadriz/friendly-snippets"];
-		};
+
 	};
+	extraPlugins = [pkgs.vimPlugins.highlight-undo-nvim]; 
+	extraConfigLua =  "
+		require('highlight-undo').setup({
+			duration = 1000,
+			undo = {
+			  hlgroup = 'HighlightUndo',
+			  mode = 'n',
+			  lhs = 'u',
+			  map = 'undo',
+			  opts = {}
+			},
+			redo = {
+			  hlgroup = 'HighlightRedo',
+			  mode = 'n',
+			  lhs = '<C-r>',
+			  map = 'redo',
+			  opts = {}
+			},
+			highlight_for_count = true,
+		})	
+	";
 }
 
 
