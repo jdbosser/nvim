@@ -4,6 +4,11 @@
 		# plugins.sleuth.enable = true; 	# Currently not in the repository of modules
 		# plugins.rhubarb.enable = true; 	# Currently not in the repository of modules	
 
+		vimtex.enable = true; 
+		vimtex.settings = {
+			#compiler_method = "tectonic";
+		}; 
+
 		which-key.enable = true; 
 		indent-blankline.enable = true; 
 		luasnip.enable = true; 

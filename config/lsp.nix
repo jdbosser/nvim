@@ -7,7 +7,7 @@
 			rust-analyzer.installCargo = false; 
 			rust-analyzer.installRustc = false; 
 			typst-lsp.enable = true; 
-			pylsp.enable = true;
+			pyright.enable = true;
 			nixd.enable = true; 
 			lua-ls.enable = true; 
 		};
